@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Seba's Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://kit.fontawesome.com/3478b0db64.js" crossorigin="anonymous"></script>
+
+
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="cards.css">
+    </head>
+    <body>
+
+         <!-- header -->
+         <header>
+            <div class='logo'>
+                <i class='fas fa-egg fa-2x'>OVO</i>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#main" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- hero section -->
+        <section id="main" class="hero__container">
+            <video src="media/fuji.mp4" autoplay loop muted></video>
+            <h1>THIS IS ME</h1>
+            <h2>welcome to Sebastiano Bovo's <br>portfolio</h2>
+            <a href="#work"><button class="hero__btn">See my projects</button></a>
+        </section>
+
+         
+
+        <!-- about me -->
+        <section class="intro section__intro" id="about">
+            <h1 class="section__title section__title-intro">
+                Hi, I'm <strong>Sebastiano</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A self-taught developer</p>
+
+            <div>
+                <p>An Italian guy based in Japan, since 2018.</p>
+                <p>Since I was a kid I was fascinated at how lines of code made possible to create games and applications.</p>
+                <p>I love learning, and as of now I am focusing on improving my knowledge of Fullstack and Cloud-related technologies.</p>
+            </div>
+            <img src="media/propic2.jpg" alt="Propic" class="intro__img">
+        </section>
+
+       <!-- portfolio -->
+        <section class="portfolio__banner" id="work">
+                <h2 class="section__title section__title--work">My work</h2>
+                <p class="section__subtitle section__subtitle--work">Some of the projects done so far</p>
+        </section>
+
+        <section class="cards__container portfolio__banner">
+            <div class="portfolio">
+                
+            <div class="card">
+                <a href="https://github.com/Eggshapedegg/Sudoku" target="_blank">
+                <img src="media/sudoku.png" alt="Avatar" style="width:100%" class="img__card">
+                </a>
+                <div class="container">
+                <h4>Python</h4> 
+                <p><b>Sudoku puzzle visualizer</b></p> 
+                </div>
+            </div>
+        
+            </li>
+            <div class="card">
+                <a href="https://github.com/Eggshapedegg/AStar-Pathfinding-Visualizer">
+                <img src="media/Astar pathfinding.jpg" alt="Avatar" style="width:100%" class="img__card" >
+                </a>
+                <div class="container">
+                <h4>Python</h4> 
+                <p><b>A* Pathfinding visualizer</b></p> 
+                </div>
+            </div>
+            </li>
+            <div class="card">
+                <img src="media/render.jpg" alt="Avatar" style="width:100%" class="img__card">
+                <div class="container">
+                <h4>TBA</h4> 
+                <p><b>TBA</b></p> 
+                </div>
+            </div>
+            </li>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <Footer class="footer">
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/sebastianobovo/">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Eggshapedegg">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                </li>  
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:sebastiano.bovo@hotmail.it">
+                        <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                </li>  
+            </ul>
+        </Footer>
+
+        <script src="index.js"></script>
+
+    </body>
+</html>
